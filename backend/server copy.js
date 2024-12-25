@@ -7,13 +7,13 @@ import connectDatabase from './config/configDatabase.js';
 
 /************************* handling Uncaught exceptions *************************/
 process.on('uncaughtException', err => {
-    console.log(`ERROR: ${err.stack}`);
-    console.log('Shutting down the server due to Uncaught Exception!');
-    process.exit(1);
+   console.log(`ERROR: ${err.stack}`);
+   console.log('Shutting down the server due to Uncaught Exception!');
+   process.exit(1);
 });
 
 /************************* configure setup *************************/
-dotenv.config({ path: 'backend/config/config.env' });
+dotenv.config({path: 'backend/config/config.env'});
 colors.enabled = true;
 
 /************************* variables *************************/
@@ -25,14 +25,14 @@ const API_URL = process.env.API_ENV || "/api/v1.0/";
 connectDatabase();
 /************************* app listening *************************/
 const server = app.listen(PORT, () => {
-    console.log(`The server is listening at - http://127.0.0.1:${PORT}${API_URL} in ${NODE_ENV} mode!`.yellow);
+   console.log(`The server is listening at - http://127.0.0.1:${PORT}${API_URL} in ${NODE_ENV} mode!`.yellow);
 });
 
 /************************* handling unhandled promise rejection *************************/
 process.on('unhandledRejection', err => {
-    console.log(`ERROR: ${err.stack}`);
-    console.log('Shutting down the server due to Unhandled Promise Rejection!');
-    server.close(() => {
-        process.exit(1);
-    });
+   console.log(`ERROR: ${err.stack}`);
+   console.log('Shutting down the server due to Unhandled Promise Rejection!');
+   server.close(() => {
+      process.exit(1);
+   });
 });
