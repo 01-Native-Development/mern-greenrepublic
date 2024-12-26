@@ -26,7 +26,13 @@ export default {
         'gray-200': '#e5e5e5',
         'gray-300': '#d4d4d4',
         'gray-400': '#a3a3a3',
-        'gray-500': '#737373'
+        'gray-500': '#737373',
+
+        // New colors added as per request
+        'background': '#064e3b', // Green-900
+        'text-primary': '#ffffff', // White
+        'text-secondary': '#d1fae5', // Light green closest to white
+        'accent': '#86efac', // Light-green for accents
       },
       fontFamily: {
         'header': ['Playfair Display', 'serif'],

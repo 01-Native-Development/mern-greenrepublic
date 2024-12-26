@@ -2,18 +2,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 :root {
-  --primary-color: #ed3849;
-  --primary-color-dark: #d23141;
-  --primary-color-light: #f4e5ec;
-  --text-dark: #0f172a;
-  --text-light: #64748b;
-  --extra-light: #f8fafc;
-  --white: #ffffff;
+  /* Primary Colors */
+  --primary-color: #5ced38;
+  /* Main Theme Green */
+  --primary-color-dark: #31d246;
+  /* Darker Green for Emphasis */
+  --primary-color-light: #047857;
+  /* Deep Green Accent */
+
+  /* Text Colors */
+  --text-dark: #5f9c67;
+  /* Soft Green Highlight for Secondary Text */
+  --text-light: #a8ebb8;
+  /* Muted Green for Subtle Contrast */
+
+  /* Background and Accents */
+  --extra-light: #047857;
+  /* Bold Green for Backgrounds or Buttons */
+  --white: #064e3b;
+  /* Dark Green as a Unique White */
+
+  /* Typography */
+  --header-font: "Playfair Display", serif;
+
+  /* Layout */
   --max-width-1400: 1400px;
   --max-width-1200: 1200px;
   --max-width-900: 900px;
-  --header-font: "Playfair Display", serif;
 }
+
+
 
 * {
   padding: 0;
@@ -26,6 +44,7 @@
   margin: auto;
   padding: 5rem 1rem;
 }
+
 input {
   font-family: "Poppins", sans-serif;
 }
@@ -63,6 +82,7 @@ input {
 .search-button:hover {
   background-color: var(--primary-color-dark);
 }
+
 .btn-pagination {
   padding: 0.75rem 1.5rem;
   outline: none;
@@ -86,6 +106,7 @@ a {
 s {
   text-decoration: line-through;
 }
+
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -501,9 +522,11 @@ nav {
 .footer__col a:hover {
   color: var(--primary-color);
 }
+
 .footer__col div {
   color: var(--text-light);
 }
+
 .footer__col div:hover {
   color: var(--primary-color);
 }
@@ -608,7 +631,7 @@ nav {
   }
 }
 
-.nav__icons span a.dropdown-items{
+.nav__icons span a.dropdown-items {
   font-size: 16px;
 }
 
@@ -619,9 +642,9 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .add-product-InputCSS {
-  @apply mt-1 block py-2.5 px-4 w-full rounded-md bg-gray-100 border-gray-300 shadow-sm focus:outline-none focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm
+  @apply mt-1 block py-2.5 px-4 w-full rounded-md bg-green-100 border-green-300 shadow-sm focus:outline-none focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm
 }
 
-.add-product-btn{
+.add-product-btn {
   @apply mt-5 inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500
 }

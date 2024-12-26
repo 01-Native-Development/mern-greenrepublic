@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import BannerComponent from '../components/home/BannerComponent.jsx';
 import CategorySection from '../sections/CategorySection.jsx';

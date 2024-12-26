@@ -15,20 +15,21 @@ export default function FooterLayout() {
             <div className="footer__col">
                <h4>CONTACT INFO</h4>
                <div>
-                  <a href="https://www.google.com/maps/place/1234+Park+Ave,+New+York,+NY+10128/@40.7864709,-73.9555135,16z/data=!3m1!4b1!4m6!3m5!1s0x89c258a6b777b2bb:0xccc4bafb3a956499!8m2!3d40.7864669!4d-73.9529386!16s%2Fg%2F11cs8m3msb?entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank"
-                     rel='noreferrer'>
-                  <span><i className="ri-map-pin-2-fill"></i></span>
-                  1234 Park Avenue,
-                  <div className="text-black tracking-wider">New York, New York</div></a>
+                  <a href="https://www.google.com/maps/place/1234+Green+Lane,+Cannabis+City,+Green+State" target="_blank" rel='noreferrer'>
+                     <span><i className="ri-map-pin-2-fill"></i></span>
+                     1234 Green Lane,
+                     <div className="text-black tracking-wider">Cannabis City, Green State</div>
+                  </a>
                </div>
                <p>
-                  <a href="mailto:support@lebaba.com"
-                     target="_blank" className=""><span><i className="ri-mail-fill"></i></span>support@lebaba.com</a>
+                  <a href="mailto:support@thegreenrepublic.com" target="_blank" className="">
+                     <span><i className="ri-mail-fill"></i></span>support@thegreenrepublic.com
+                  </a>
                </p>
                <p>
-
-
-                  <a href="tel: 901-828-4631"><span><i className="ri-phone-fill"></i></span>(+212) 234-5678</a>
+                  <a href="tel: 123-456-7890">
+                     <span><i className="ri-phone-fill"></i></span>(+123) 456-7890
+                  </a>
                </p>
             </div>
 
@@ -38,34 +39,34 @@ export default function FooterLayout() {
                <a href="/about">About Us</a>
                <a href="/">Careers With Us</a>
                <a href="/">Our Blogs</a>
-               <a href="/terms-condition">Terms & Condition</a>
+               <a href="/terms-condition">Terms & Conditions</a>
             </div>
 
             <div className='footer__col'>
-               <h4>USEFUL LINK</h4>
+               <h4>USEFUL LINKS</h4>
                <a href="/">Track Orders</a>
-               <a href="/categories/accessories">Accessories</a>
-               <a href="/categories/clothing">Clothing</a>
-               <a href="/categories/jewelry">Jewelry</a>
+               <a href="/categories/edibles">Edibles</a>
+               <a href="/categories/vapes">Vapes</a>
+               <a href="/categories/cbd">CBD</a>
                <a href="/categories/cosmetics">Cosmetics</a>
             </div>
+
             <div className='footer__col'>
                <h4>INSTAGRAM</h4>
                <div className='instagram__grid'>
-                  <img src={instagramImage1} alt="instagram image" />
-                  <img src={instagramImage2} alt="instagram image" />
-                  <img src={instagramImage3} alt="instagram image" />
-                  <img src={instagramImage4} alt="instagram image" />
-                  <img src={instagramImage5} alt="instagram image" />
-                  <img src={instagramImage6} alt="instagram image" />
+                  <img src={instagramImage1} alt="cannabis product" />
+                  <img src={instagramImage2} alt="cannabis lifestyle" />
+                  <img src={instagramImage3} alt="cannabis product" />
+                  <img src={instagramImage4} alt="cannabis product" />
+                  <img src={instagramImage5} alt="cannabis event" />
+                  <img src={instagramImage6} alt="cannabis product" />
                </div>
             </div>
          </footer>
 
          <div className='footer__bar tracking-wider bg-neutral-100'>
-            © 2024 by Lebaba,Inc. All rights reserved.
+            © 2024 by The Green Republic, Inc. All rights reserved.
          </div>
       </>
-
    );
 }

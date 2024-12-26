@@ -99,7 +99,7 @@ export default function ShopPage() {
          <section className="section__container bg-primary-light">
             <h2 className="section__header capitalize">Shop Page</h2>
             <p className="section__subheader">Discover the Hottest Picks: Elevate
-               Your Style with Our Curated Collection of Trending Women's Fashion
+               Your Natural with Our Curated Collection of Trending Cannibis
                Products.</p>
          </section>
          <section className="section__container">

@@ -10,19 +10,19 @@ export default function AboutPage() {
                <div className="max-w-lg">
                   <h2
                      className="font-header text-3xl font-extrabold text-gray-900 sm:text-4xl">About
-                     Us</h2>
-                  <p className="font-body tracking-wider mt-4 text-gray-600 text-lg">At Lebaba, our passion goes beyond just offering a curated selection of stylish clothing and accessories. We are dedicated to creating a community where women can express their unique identities. Our thoughtfully chosen collections feature timeless pieces, trendy finds, and exclusive lines that reflect the diversity of women everywhere. From chic everyday wear to stunning outfits for special occasions, we have something for every chapter of your life.</p>
+                     The Green Republic</h2>
+                  <p className="font-body tracking-wider mt-4 text-gray-600 text-lg">At The Green Republic, our mission is to redefine wellness by providing high-quality cannabis products. From edibles and vapes to CBD oils and cosmetics, we are dedicated to empowering your lifestyle with safe, sustainable, and innovative solutions. Whether you’re seeking relaxation, inspiration, or natural beauty enhancements, our thoughtfully selected range caters to every preference.</p>
                   <div className="mt-8">
                      <a href="/shop"
-                        className="font-body tracking-wider about__info text-primary-dark hover:text-primary font-medium">Learn
-                        more about us
+                        className="font-body tracking-wider about__info text-primary-dark hover:text-primary font-medium">Discover
+                        Our Collection
                         <span className="ml-2">&#8594;</span></a>
                   </div>
                </div>
                <div className="mt-12 md:mt-0">
                   <img
                      src={aboutImage}
-                     alt="About Us Image"
+                     alt="About The Green Republic"
                      className="object-cover rounded-sm shadow-md"/>
                </div>
             </div>
