@@ -9,27 +9,28 @@ const cards = [
    {
       id: 1,
       image: cardImage1,
-      trend: '2024 Trend',
-      title: 'Women Blouses'
+      trend: '2024 CBD Trend',
+      title: 'CBD Edibles'
    },
    {
       id: 2,
       image: cardImage2,
-      trend: '2024 Trend',
-      title: 'Women Dresses'
+      trend: '2024 CBD Trend',
+      title: 'CBD Vapes'
    },
    {
       id: 3,
       image: cardImage3,
-      trend: '2024 Trend',
-      title: 'Women Casuals'
+      trend: '2024 CBD Trend',
+      title: 'CBD Topicals'
    }
 ]
+
 
 export default function HeroSection() {
 
    return (
-      <section className="section__container hero__container">
+      <section className="hero__container section__container">
          {
             cards.map((card) => (
                <div key={card.id} className='hero__card'>

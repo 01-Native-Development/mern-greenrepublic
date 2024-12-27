@@ -11,7 +11,7 @@ export default function CategorySection() {
 
    const categories = [
       {name: 'Edibles', path: 'edibles', image: categoryImage1},
-      {name: 'Vape', path: 'vape', image: categoryImage2},
+      {name: 'Vapes', path: 'vape', image: categoryImage2},
       {name: 'Cbd', path: 'cbd', image: categoryImage3},
       {name: 'Cosmetics', path: 'cosmetics', image: categoryImage4}
    ];

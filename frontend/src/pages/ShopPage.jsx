@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, {useEffect, useState} from 'react';
 
 /*import productsData from '../data/products.json';*/
@@ -8,13 +9,13 @@ import {useGetAllProductsQuery} from './../redux/features/products/productAPI.js
 
 
 const filters = {
-   categories: ['all', 'accessories', 'clothing', 'jewelry', 'cosmetics'],
-   colors: ['all', 'beige', 'black', 'brown', 'blue', 'green', 'gold', 'red', 'grey', 'silver'],
+   categories: ['all', 'edibles', 'vapes', 'cbd', 'cosmetics'],
+   colors: ['all', 'beige oracle', 'black widow', 'brown beard', 'blue haze', 'green gold', 'gold lotus', 'red beard', 'grey widow', 'silver gorilla'],
    priceRanges: [
-      {label: 'Under $50', min: 0, max: 50},
-      {label: '$51 - $100', min: 51, max: 100},
-      {label: '$101 - $200', min: 101, max: 200},
-      {label: 'above $200', min: 201, max: Infinity}
+      {label: 'Under R100', min: 0, max: 100},
+      {label: 'R151 - R300', min: 151, max: 300},
+      {label: 'R301 - R800', min: 301, max: 800},
+      {label: 'above R800', min: 801, max: Infinity}
    ]
 };
 
@@ -96,14 +97,14 @@ export default function ShopPage() {
 
    return (
       <>
-         <section className="section__container bg-primary-light">
-            <h2 className="section__header capitalize">Shop Page</h2>
+         <section className="bg-primary-light section__container">
+            <h2 className="capitalize section__header">Shop Page</h2>
             <p className="section__subheader">Discover the Hottest Picks: Elevate
                Your Natural with Our Curated Collection of Trending Cannibis
                Products.</p>
          </section>
          <section className="section__container">
-            <div className="flex flex-col md:flex-row md:gap-12 gap-8">
+            <div className="flex md:flex-row flex-col gap-8 md:gap-12">
                {/* left side */}
                <ShopFilteringComponent
                   filters={filters}
@@ -113,24 +114,24 @@ export default function ShopPage() {
                />
                {/* right side */}
                <div>
-                  <h3 className="font-header text-xl font-semibold tracking-wider mb-4">
+                  <h3 className="mb-4 font-header font-semibold text-xl tracking-wider">
                      {/*{products.length} Available Products*/}
                      Showing {startProduct} to {endProduct} of {totalProducts} Products
                   </h3>
                   <ProductCardsComponent products={products}/>
 
                   {/* pagination controls */}
-                  <div className='mt-6 flex justify-center'>
+                  <div className='flex justify-center mt-6'>
                      <button
                         disabled={currentPage === 1}
                         onClick={() => handlePageChange(currentPage - 1)}
-                        className='px-4 py-2 bg-gray-300 font-semibold capitalize text-gray-700 rounded-md mr-2'>Prev</button>
+                        className='bg-gray-300 mr-2 px-4 py-2 rounded-md font-semibold text-gray-700 capitalize'>Prev</button>
 
                      {
                         [...Array(totalPages)].map((_, index) => (
                            <button key={index}
                                    onClick={() => handlePageChange(index + 1)}
-                                   className={`px-4 py-2 font-semibold ${currentPage === index + 1 ? 'btn' : 'btn-pagination bg-gray-300 text-gray-700 hover:bg-gray-400 hover:text-gray-100'}
+                                   className={`px-4 py-2 font-semibold R{currentPage === index + 1 ? 'btn' : 'btn-pagination bg-gray-300 text-gray-700 hover:bg-gray-400 hover:text-gray-100'}
                                         rounded-md mx-1
                                         `}
                            >{index + 1}</button>
@@ -140,7 +141,7 @@ export default function ShopPage() {
                      <button
                         disabled={currentPage === totalPages}
                         onClick={() => handlePageChange(currentPage + 1)}
-                        className='px-4 py-2 bg-gray-300 font-semibold capitalize text-gray-700 rounded-md ml-2'>next</button>
+                        className='bg-gray-300 ml-2 px-4 py-2 rounded-md font-semibold text-gray-700 capitalize'>next</button>
 
                   </div>
 
