@@ -5,7 +5,7 @@ import instagramImage2 from '../assets/instagram-2.jpg';
 import instagramImage3 from '../assets/instagram-3.jpg';
 import instagramImage4 from '../assets/instagram-4.jpg';
 import instagramImage5 from '../assets/instagram-5.jpg';
-import instagramImage6 from '../assets/instagram-6.jpg';
+
 
 export default function FooterLayout() {
 
@@ -17,8 +17,8 @@ export default function FooterLayout() {
                <div>
                   <a href="https://www.google.com/maps/place/1234+Green+Lane,+Cannabis+City,+Green+State" target="_blank" rel='noreferrer'>
                      <span><i className="ri-map-pin-2-fill"></i></span>
-                     1234 Green Lane,
-                     <div className="text-black tracking-wider">Cannabis City, Green State</div>
+                     Block 5 Fountain Grove,
+                     <div className="text-black tracking-wider">2nd Road , Hyde Park , Sandton</div>
                   </a>
                </div>
                <p>
@@ -28,7 +28,7 @@ export default function FooterLayout() {
                </p>
                <p>
                   <a href="tel: 123-456-7890">
-                     <span><i className="ri-phone-fill"></i></span>(+123) 456-7890
+                     <span><i className="ri-phone-fill"></i></span>(+27) 150-4628
                   </a>
                </p>
             </div>
@@ -59,7 +59,7 @@ export default function FooterLayout() {
                   <img src={instagramImage3} alt="cannabis product" />
                   <img src={instagramImage4} alt="cannabis product" />
                   <img src={instagramImage5} alt="cannabis event" />
-                  <img src={instagramImage6} alt="cannabis product" />
+               
                </div>
             </div>
          </footer>

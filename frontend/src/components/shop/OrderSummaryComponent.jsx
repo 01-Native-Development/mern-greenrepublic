@@ -23,7 +23,7 @@ export default function OrderSummaryComponent() {
             <p className='text-text-dark mt-2'>Items Selected: {selectedItems}</p>
             <p>Total Price: ${totalPrice.toFixed(2)}</p>
             <p>Tax ({taxRate * 100}%): ${tax.toFixed(2)}</p>
-            <h3 className='font-bold'>GrandTotal: ${grandTotal.toFixed(2)}</h3>
+            <h3 className='font-bold'>GrandTotal: R{grandTotal.toFixed(2)}</h3>
             <div className='px-4 mb-6'>
                <button
                   onClick={(e) => {

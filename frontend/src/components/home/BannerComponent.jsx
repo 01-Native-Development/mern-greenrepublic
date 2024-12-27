@@ -9,7 +9,7 @@ export default function BannerComponent() {
       <div className='header__container section__container'>
          <div className='z-30 header__content'>
             <h4 className='font-semibold uppercase tracking-wider'>UP TO 20% Discount on</h4>
-            <h1>Cannabis Products</h1>
+            <h1>Green Republic</h1>
             <p className="font-semibold tracking-wider">
                Elevate your lifestyle with premium cannabis products. Explore a curated collection of edibles, vapes, CBD, and cosmetics,
                crafted for wellness and enjoyment.
