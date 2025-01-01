@@ -23,7 +23,7 @@ app.use(cors({
 app.use('/api/auth', authRoutes)
 
 main()
-    .then(() => console.log("MongoDB successfully connected"))
+    .then(() => console.log("Greenrepublic-ecommerce DB successfully connected"))
     .catch(err => console.log(err));
 
 
@@ -31,11 +31,11 @@ async function main() {
     await mongoose.connect(process.env.MONGO_DB_URI);
 
     app.get('/', (req, res) => {
-        res.send('Sir Karabo E-commerce Server is running !')
+        res.send('The Green Republic E-commerce Server is running !')
     })
 }
 
 
 app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`)
+    console.log(`The Green Republic App listening on port ${port}`)
 }) 

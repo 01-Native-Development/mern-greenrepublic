@@ -10,11 +10,11 @@ export default function TrendingProducts() {
 		setVisibleProducts((prevCount) => prevCount + 4)
 	}
 	return (
-		<section className='section__container product__container'>
+		<section className='product__container section__container'>
 			<h2 className='section__header'>Trending Products</h2>
-			<p className='section__subheader mb-12'>
+			<p className='mb-12 section__subheader'>
 				Discover the Hottest Picks: Elevate Your Style with Our Curated
-				Collection of Trending Women's Fashion Products.
+				Collection of Trending Women&rsquo;s Fashion Products.
 			</p>
 
 			{/* products card */}

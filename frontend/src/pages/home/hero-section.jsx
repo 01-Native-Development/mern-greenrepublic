@@ -6,20 +6,20 @@ const cards = [
 	{
 		id: 1,
 		image: card1,
-		trend: '2024 CBD Trend',
+		trend: '2025 CBD Trend',
 		title: 'Edibles',
 	},
 	{
 		id: 2,
 		image: card2,
-		trend: '2024 CBD Trend',
-		title: 'Vapes',
+		trend: '2025 CBD Trend',
+		title: 'Cosmetics',
 	},
 	{
 		id: 3,
 		image: card3,
-		trend: '2024 CBD Trend',
-		title: 'Cosmetics',
+		trend: '2025 CBD Trend',
+		title: 'Accessories',
 	},
 ]
 
@@ -32,7 +32,7 @@ export default function HeroSection() {
 					<div className='hero__content'>
 						<p>{card.trend}</p>
 						<h4>{card.title}</h4>
-						<a href='#'>Discover More</a>
+						<a href='#'>Explore</a>
 					</div>
 				</div>
 			))}

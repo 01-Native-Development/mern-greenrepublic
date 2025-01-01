@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 export default function Categories() {
 	const categories = [
-		{ name: 'Edibles', path: 'edibleds', image: category1 },
+		{ name: 'Edibles', path: 'edibles', image: category1 },
 		{ name: 'Vapes', path: 'vapes', image: category2 },
 		{ name: 'CBD', path: 'cbd', image: category3 },
 		{ name: 'Cosmetics', path: 'cosmetics', image: category4 },
