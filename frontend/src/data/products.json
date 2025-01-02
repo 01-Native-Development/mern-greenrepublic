@@ -1,118 +1,107 @@
 [
-	{
-		"_id": 1,
-		"name": "CBD Relaxation Gummies",
-		"category": "edibles",
-		"subCategory": "gummies",
-		"description": "Delicious gummies infused with premium CBD to help you relax.",
-		"price": 19.99,
-		"oldPrice": 24.99,
-		"image": "https://images.unsplash.com/photo-1485527691629-8e370684924c?q=80&w=2074&auto=format&fit=crop",
-		"flavor": "mixed berry",
-		"rating": 4.8,
-		"author": "admin"
-	},
-	{
-		"_id": 2,
-		"name": "Disposable Vape Pen",
-		"category": "vapes",
-		"subCategory": "pens",
-		"description": "Convenient and portable disposable vape pen for on-the-go use.",
-		"price": 29.99,
-		"oldPrice": 34.99,
-		"image": "https://images.unsplash.com/photo-1485527691629-8e370684924c?q=80&w=2074&auto=format&fit=crop",
-		"flavor": "mint",
-		"rating": 4.5
-	},
-	{
-		"_id": 3,
-		"name": "Lavender-Infused CBD Oil",
-		"category": "CBD",
-		"subCategory": "oils",
-		"description": "Calming CBD oil infused with natural lavender for relaxation.",
-		"price": 39.99,
-		"image": "https://images.unsplash.com/photo-1485527691629-8e370684924c?q=80&w=2074&auto=format&fit=crop",
-		"size": "30ml",
-		"rating": 4.9
-	},
-	{
-		"_id": 4,
-		"name": "Cannabis-Infused Lip Balm",
-		"category": "cosmetics",
-		"subCategory": "lip balm",
-		"description": "Hydrating lip balm infused with natural cannabis extracts.",
-		"price": 9.99,
-		"image": "https://images.unsplash.com/photo-1485527691629-8e370684924c?q=80&w=2074&auto=format&fit=crop",
-		"flavor": "peppermint",
-		"rating": 4.6
-	},
-	{
-		"_id": 5,
-		"name": "Herbal THC Tea Blend",
-		"category": "edibles",
-		"subCategory": "tea",
-		"description": "Relaxing herbal tea blend infused with THC for a mellow experience.",
-		"price": 14.99,
-		"oldPrice": 19.99,
-		"image": "https://images.unsplash.com/photo-1485527691629-8e370684924c?q=80&w=2074&auto=format&fit=crop",
-		"flavor": "chamomile",
-		"rating": 4.7
-	},
-	{
-		"_id": 6,
-		"name": "THC-Infused Chocolate Bar",
-		"category": "edibles",
-		"subCategory": "chocolate",
-		"description": "Rich dark chocolate infused with THC for a delightful treat.",
-		"price": 24.99,
-		"image": "https://images.unsplash.com/photo-1485527691629-8e370684924c?q=80&w=2074&auto=format&fit=crop",
-		"flavor": "dark chocolate",
-		"rating": 4.8
-	},
-	{
-		"_id": 7,
-		"name": "THC Wax Concentrate",
-		"category": "vapes",
-		"subCategory": "concentrates",
-		"description": "High-potency THC wax concentrate for experienced users.",
-		"price": 49.99,
-		"oldPrice": 59.99,
-		"image": "https://images.unsplash.com/photo-1485527691629-8e370684924c?q=80&w=2074&auto=format&fit=crop",
-		"weight": "1g",
-		"rating": 4.9
-	},
-	{
-		"_id": 8,
-		"name": "CBD Skin Serum",
-		"category": "cosmetics",
-		"subCategory": "skincare",
-		"description": "Nourishing serum enriched with CBD for radiant skin.",
-		"price": 29.99,
-		"image": "https://images.unsplash.com/photo-1485527691629-8e370684924c?q=80&w=2074&auto=format&fit=crop",
-		"size": "50ml",
-		"rating": 4.4
-	},
-	{
-		"_id": 9,
-		"name": "Recyclable Glass Pipe",
-		"category": "accessories",
-		"subCategory": "smoking",
-		"description": "Eco-friendly glass pipe for a smooth smoking experience.",
-		"price": 19.99,
-		"image": "https://images.unsplash.com/photo-1485527691629-8e370684924c?q=80&w=2074&auto=format&fit=crop",
-		"color": "green",
-		"rating": 4.3
-	},
-	{
-		"_id": 10,
-		"name": "CBD-Infused Body Lotion",
-		"category": "cosmetics",
-		"subCategory": "skincare",
-		"description": "Moisturizing body lotion infused with calming CBD.",
-		"price": 24.99,
-		"oldPrice": 34.99,
-		"image": "https://images.unsplash.com/photo-1485527691629-8e370684924c?q=80&w=2074&auto=format&fit=crop",
-		"size": "200ml",
-		"rating": 4.5
-	}
+  {
+    "name": "CBD Relaxation Gummies",
+    "category": "edibles",
+    "subCategory": "gummies",
+    "description": "Delicious gummies infused with premium CBD to help you relax.",
+    "price": 19.99,
+    "oldPrice": 24.99,
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczPTTQ9heyOMKq4YRPG9lLXmhXL43N3sRHjZ2p0XWbO2BXR6YCcKL8tYO4fbYxv7QknkH4pVjdDv6x0iNwM5Z_PkLelCQ43DQT_ndov4SBCfh95BQmwYG_uh3gwrLoEFrzL6T-JDIWRsCN5SVKLZEkO79Q=w297-h301-s-no-gm?authuser=0",
+    "flavor": "mixed berry",
+    "rating": 4.8,
+    "author": "admin"
+  },
+  {
+    "name": "Herbal THC Cookie Blend",
+    "category": "edibles",
+    "subCategory": "tea",
+    "description": "Relaxing herbal cookies blend infused with THC for a mellow experience.",
+    "price": 14.99,
+    "oldPrice": 19.99,
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczOiXsNa76ITTW-VqVK6BD1awqgxrYdS6-k7IW4C6l_Jq6hXVkH2SPQ-Bm5nYEpR33UadE2ECp0f5dkGQgzcw1fxDz3LEJpxSfq__SJdg8s1bTpdsv7RAmGVrUYd_ELBccg_DK3tluj87O_Qt6DYahXFSA=w266-h244-s-no-gm?authuser=0",
+    "flavor": "chamomile",
+    "rating": 4.7
+  },
+  {
+    "name": "THC-Infused Chocolate Bar",
+    "category": "edibles",
+    "subCategory": "chocolate",
+    "description": "Rich dark chocolate infused with THC for a delightful treat.",
+    "price": 24.99,
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczNJBakWIYxcebe9iiiXAVCGQkjPv2715dtOJHwWnOHFpYKMvf5Uq1JelOo4g9DssBADRxxktMqjj9mrwdlQ8I6O2O_XJQ_DyBZhK84EWfuQmFp_FKBUgbP1A05FrDLvWHPHwUJARxa2k6lz7AchgM_WhQ=w209-h236-s-no-gm?authuser=0",
+    "flavor": "dark chocolate",
+    "rating": 4.8
+  },
+  {
+    "name": "Recreational THC Gummies",
+    "category": "edibles",
+    "subCategory": "gummies",
+    "description": "Fun and potent gummies for a recreational experience.",
+    "price": 19.99,
+    "oldPrice": 24.99,
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczPOCMdyXddKtY0kPshWPs-rAaBuIdRtTvftmqI8WDelU13qDuHLOtZaYUek17kD-xf3AfEzTJw-C6ZZnJr6W8FHm_gTA2O7zlWOUliZVgoIKoHjZd7yxj78I4GkGFlnF8T2ZJQQXwbbVQIMbqHrdrsFsQ=w296-h327-s-no-gm?authuser=0",
+    "flavor": "sour apple",
+    "rating": 4.6
+  },
+  {
+    "name": "CBD Fudge - Lavender",
+    "category": "CBD",
+    "subCategory": "edibles",
+    "description": "Relax with this smooth CBD-infused lavender Fudge.",
+    "price": 29.99,
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczPBUZEQl9ZaTotM-i5OUXcHvPkoC8U8r20Rf9_bnRUHg_OuL9iLHHA2hLM-yi_mkn_EFJJj3xFKU1W8dYAb1yxyK3dXwzQ11yWhuf95vneXzZobi2JW4Wcjs9ljO9uh4E-J6yavWcBIxSqdVP2bsCbCOw=w396-h339-s-no-gm?authuser=0",
+    "rating": 4.9
+  },
+  {
+    "name": "Recreational CBD Chocolate - Pineapple Express",
+    "category": "CBD",
+    "subCategory": "chocolate",
+    "description": "A refreshing CBD-infused Chocolatate with a tropical pineapple express flavor.",
+    "price": 34.99,
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczOvvQK81h6mVm32_ZD3tR1umzSZ9GasSCYSByn-2HHx5sLeU7kl2A0Nu0pdRRpds0fINGmRQV-AO-JYwejmPty6bTy_pwdM5rHmASVkNekjOE4yoIq6dlVYnDqobog4iJTrteoH-zMpq2xe7D90EzOqAA=w312-h263-s-no-gm?authuser=0",
+    "rating": 4.7
+  },
+  {
+    "name": "Portable THC Vape Pen",
+    "category": "vapes",
+    "subCategory": "pens",
+    "description": "Convenient and portable disposable vape pen for a smooth THC experience.",
+    "price": 29.99,
+    "oldPrice": 34.99,
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczO6CeekqRBADTrLCjBT3oP4j9OmY5mFftHtyU2o2LIm66sc-fiFOMvE7uwnHkZA8kWf0o21_gDzt0ZC9uZy4lUxT6dRl8OY2QuZshGXE-6SKZhgvkp9I5gOMigSexjvnJPnPcnlSmwl_UOuoL4UwCUj=w608-h608-s-no-gm?authuser=0",
+    "flavor": "mint",
+    "rating": 4.5
+  },
+  {
+    "name": "THC blunt - Blue Haze ",
+    "category": "vapes",
+    "subCategory": "concentrates",
+    "description": "High-potency THC Blunt concentrate for experienced users.",
+    "price": 49.99,
+    "oldPrice": 59.99,
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczNXk83KlFgUF_BpFC_zYOWOr0l2xBBbx0JILsrSv1bU0vfLbynTQh5WVpBFA777ZlAz9nfBXZzSINUuF58RvG7PzDf7tiC8qGRWdE_VblZqwelIcnKpOIzA5Yl0_GwNrZO_xR_lgWqtF3iwcBFZhz3B=w608-h608-s-no-gm?authuser=0",
+    "weight": "1g",
+    "rating": 4.9
+  },
+  {
+    "name": "Recreational Cannabis-Infused Fudge Basket",
+    "category": "cosmetics",
+    "subCategory": "edibles",
+    "description": "Hydrating lip balm infused with natural cannabis extracts for a recreational boost.",
+    "price": 9.99,
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczPxki5HFCz3288HcrrSmosy4iULSbUcgW_DaJbK1_NCUrEZAEJXwivjXmB5yahBGT7r5PPYpCDN8WLG8QNlZO4x6jhoz4px9JcuMUGM-uXHRkK7NuzoH3WaX8lIGTFomS9b1YNB6Iwd_62DuNKEJxFVAA=w297-h300-s-no-gm?authuser=0",
+    "flavor": "peppermint",
+    "rating": 4.6
+  },
+  {
+    "name": "CBD-Infused Chocolate",
+    "category": "edibles",
+    "subCategory": "chocolate",
+    "description": "Rice crackers elevate the high bruv.",
+    "price": 24.99,
+    "oldPrice": 34.99,
+    "image": "https://images.unsplash.com/photo-1485527691629-8e370684924c?q=80&w=2074&auto=format&fit=crop",
+    "size": "200ml",
+    "rating": 4.5
+  }
 ]

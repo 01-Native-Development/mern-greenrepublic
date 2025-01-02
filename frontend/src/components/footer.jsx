@@ -8,7 +8,7 @@ import instaImg6 from '../assets/instagram-6.jpg'
 export default function Footer() {
 	return (
 		<>
-			<footer className='section__container footer__container'>
+			<footer className='footer__container section__container'>
 				<div className='footer__col'>
 					<h4>CONTACT INFO</h4>
 					<p>
@@ -21,7 +21,7 @@ export default function Footer() {
 						<span>
 							<i className='ri-mail-fill'></i>
 						</span>
-						support@lebaba.com
+						support@thegreenrepublic.com
 					</p>
 					<p>
 						<span>
@@ -62,7 +62,7 @@ export default function Footer() {
 			</footer>
 
 			<div className='footer__bar'>
-				Copyright © 2025 by Lebaba. All rights reserved.
+				Copyright © 2025 by Sir Karabo x Lady Kopano. All rights reserved.
 			</div>
 		</>
 	)

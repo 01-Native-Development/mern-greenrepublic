@@ -15,7 +15,7 @@ const opts = {
 	overwrite: true,
 	invalidate: true,
 	resource_type: 'auto',
-	folder: 'karabo-ecommerce',
+	folder: 'lebaba-ecommerce',
 }
 
 module.exports = (image) => {

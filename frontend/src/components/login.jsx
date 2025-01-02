@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
@@ -36,12 +37,12 @@ export default function LoginPage() {
 	}
 
 	return (
-		<section className='h-screen flex items-center justify-center'>
-			<div className='max-w-sm border shadow bg-white mx-auto p-8'>
-				<h2 className='text-2xl font-semibold pt-5'>Please Login</h2>
+		<section className='flex justify-center items-center h-screen'>
+			<div className='bg-white shadow mx-auto p-8 border max-w-sm'>
+				<h2 className='pt-5 font-semibold text-2xl'>Please Login</h2>
 				<form
 					onSubmit={handleLogin}
-					className='space-y-5 max-w-sm mx-auto pt-8'
+					className='space-y-5 mx-auto pt-8 max-w-sm'
 				>
 					<input
 						type='email'
@@ -49,7 +50,7 @@ export default function LoginPage() {
 						id='email'
 						placeholder='Email Address'
 						required
-						className='w-full bg-gray-100 focus:outline-none px-5 py-3'
+						className='bg-gray-100 px-5 py-3 w-full focus:outline-none'
 						onChange={(e) => setEmail(e.target.value)}
 					/>
 					<input
@@ -58,22 +59,22 @@ export default function LoginPage() {
 						id='password'
 						placeholder='Password'
 						required
-						className='w-full bg-gray-100 focus:outline-none px-5 py-3'
+						className='bg-gray-100 px-5 py-3 w-full focus:outline-none'
 						onChange={(e) => setPassword(e.target.value)}
 					/>
 					{message && <p className='text-red-500'>{message}</p>}
 
 					<button
 						type='submit'
-						className='w-full mt-5 bg-primary text-white hover:bg-indigo-500 font-medium py-3 rounded-md'
+						className='bg-primary hover:bg-indigo-500 mt-5 py-3 rounded-md w-full font-medium text-white'
 					>
 						Login
 					</button>
 				</form>
 
-				<p className='my-5 italic text-sm text-center'>
-					Don't have an account?
-					<Link to='/register' className='text-red-700 px-1 underline'>
+				<p className='my-5 text-center text-sm italic'>
+					Don&rsquo;t have an account?
+					<Link to='/register' className='px-1 text-red-700 underline'>
 						Register
 					</Link>{' '}
 					here.
