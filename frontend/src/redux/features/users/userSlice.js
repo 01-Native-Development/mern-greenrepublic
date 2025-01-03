@@ -1,4 +1,4 @@
-import {createSlice} from '@reduxjs/toolkit/query';
+import {createSlice} from '@reduxjs/toolkit';
 
 const loadUserFromLocalStorage = () => {
    try {

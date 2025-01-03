@@ -1,9 +1,7 @@
 /************************* imports *************************/
 import dotenv from "dotenv";
 import colors from "colors";
-// App Routing & Middleware
 import app from './app/app.js';
-// Database Connection
 import connectDatabase from './config/configDatabase.js';
 
 
