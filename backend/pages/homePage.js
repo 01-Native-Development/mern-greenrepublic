@@ -154,7 +154,7 @@ export default function HomePage() {
         </div>-->
         <section id="home">
             <div class="page-title">
-                <h1>BACKEND SERVER</h1>
+                <h1>The Green Republic Server</h1>
                 <h2>MongoDB, Express.js, React.js, and Node.js</h2>
             </div>
         </section>
