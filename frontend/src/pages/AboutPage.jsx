@@ -11,7 +11,9 @@ export default function AboutPage() {
                   <h2
                      className="font-header text-3xl font-extrabold text-gray-900 sm:text-4xl">About
                      Us</h2>
-                  <p className="font-body tracking-wider mt-4 text-gray-600 text-lg">At Lebaba, our passion goes beyond just offering a curated selection of stylish clothing and accessories. We are dedicated to creating a community where women can express their unique identities. Our thoughtfully chosen collections feature timeless pieces, trendy finds, and exclusive lines that reflect the diversity of women everywhere. From chic everyday wear to stunning outfits for special occasions, we have something for every chapter of your life.</p>
+                  <p className="font-body tracking-wider mt-4 text-gray-600 text-lg">Welcome to Green Republic, where nature meets innovation. We are passionate about delivering premium cannabis products that elevate your experience while promoting wellness and sustainability. At Green Republic, we believe in the power of cannabis to enhance lives, and we are committed to providing safe, high-quality products crafted with care and precision.
+
+Our mission is to create a community where everyone can explore and enjoy the benefits of cannabis responsibly. Whether you're new to cannabis or a seasoned enthusiast, Green Republic is your trusted partner in discovering the finest strains, edibles, and more. Join us as we redefine the cannabis lifestyle—one that is rooted in trust, quality, and a greener future for all.</p>
                   <div className="mt-8">
                      <a href="/shop"
                         className="font-body tracking-wider about__info text-primary-dark hover:text-primary font-medium">Learn

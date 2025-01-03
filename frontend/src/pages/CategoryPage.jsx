@@ -23,9 +23,7 @@ export default function CategoryPage() {
       <>
          <section className='section__container bg-primary-light'>
             <h2 className='section__header capitalize'>{category}</h2>
-            <p className='section__subheader'>Browse a diverse range of categories,
-               from chic clothing to versatile accessories. Elevate your style
-               today!</p>
+            <p className='section__subheader'>Explore a wide selection of premium cannabis products, from top-quality strains to innovative edibles. Elevate your experience with Green Republic today!</p>
          </section>
          {/*product card*/}
          <section className="section__container">

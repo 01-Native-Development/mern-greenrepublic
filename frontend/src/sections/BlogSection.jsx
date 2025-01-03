@@ -7,11 +7,9 @@ export default function BlogSection() {
    return (
       <section className='section__container blog__container'>
          <h2 className='section__header'>Latest From Blog</h2>
-         {/*<p className='section__subheader'> Elevate your wardrobe with our freshest
-            style tips, trends, and inspiration on our blog.</p>*/}
+         {/*<p className='section__subheader'> Elevate your experience with expert tips, trends, and inspiration on our cannabis lifestyle blog..</p>*/}
          <p className="section__subheader font-semibold tracking-wider">
-            Embrace the embodiment of sophistication and allure with fresh style tips and
-            trends from our blog.
+         Embrace the essence of relaxation and wellness with fresh insights and trends from our cannabis lifestyle blog.
          </p>
          <div
             className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-12'>

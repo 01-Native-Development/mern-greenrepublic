@@ -50,7 +50,7 @@ export default function ContactPage() {
                            </svg>
                         </dt>
                         <dd><a className="font-body hover:text-primary"
-                               href="mailto:contact@lebaba.com">contact@lebaba.com</a>
+                               href="info@greenrep.com">contact@lebaba.com</a>
                         </dd>
                      </div>
                      <div className="font-body-font flex gap-x-4">
@@ -65,7 +65,7 @@ export default function ContactPage() {
                               </path>
                            </svg>
                         </dt>
-                        <dd>1234 Park Avenue, New York, New York</dd>
+                        <dd>Block 5 Fountain Grove 2nd Road, Hyde Park, Sandton</dd>
                      </div>
                   </dl>
                </div>

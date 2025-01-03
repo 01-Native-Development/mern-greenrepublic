@@ -9,9 +9,9 @@ import categoryImage4 from '../assets/category-4.jpg';
 export default function CategorySection() {
 
    const categories = [
-      {name: 'Accessories', path: 'accessories', image: categoryImage1},
-      {name: 'Clothing', path: 'clothing', image: categoryImage2},
-      {name: 'Jewelry', path: 'jewelry', image: categoryImage3},
+      {name: 'Edibles', path: 'accessories', image: categoryImage1},
+      {name: 'Vape', path: 'clothing', image: categoryImage2},
+      {name: 'Blunt', path: 'jewelry', image: categoryImage3},
       {name: 'Cosmetics', path: 'cosmetics', image: categoryImage4}
    ]
 

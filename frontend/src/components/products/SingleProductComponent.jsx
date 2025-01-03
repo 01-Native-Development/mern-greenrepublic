@@ -61,9 +61,9 @@ export default function SingleProductComponent() {
                      className="text-2xl font-semibold mb-4">{singleProduct?.name}</h3>
                   <p className="text-xl text-black font-semibold mb-4 space-x-1">
                      {singleProduct?.oldPrice &&
-                        <s className="ml-1 text-primary">${singleProduct?.oldPrice}</s>}
+                        <s className="ml-1 text-primary">R{singleProduct?.oldPrice}</s>}
                         &nbsp;
-                     ${singleProduct?.price}
+                     R{singleProduct?.price}
                   </p>
                   <p className="text-gray-900 tracking-wider mb-4">{singleProduct?.description}</p>
 

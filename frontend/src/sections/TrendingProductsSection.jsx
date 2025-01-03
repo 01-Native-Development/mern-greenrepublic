@@ -15,8 +15,7 @@ export default function TrendingProductsSection() {
       <section className="section__container product__container">
          <h2 className='section__header'>Trending Products</h2>
          <p className='section__subheader font-semibold tracking-wider mb-12'>
-            Discover the Hottest Picks: Elevate Your Style with Our Curated
-            Collection of Trending Women's Fashions.
+         Discover the Hottest Picks: Elevate your experience with our curated collection of trending cannabis products.
          </p>
          {/*ProductCardsComponents*/}
          <div className="mt-12">
