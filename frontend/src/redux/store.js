@@ -1,18 +1,30 @@
-import { configureStore } from '@reduxjs/toolkit/query/react';
-import cartReducer from './features/cart/cartSlice.js';
-import userAPI from './features/users/userAPI.js';
-import userReducer from './features/users/userSlice.js';
-import productAPI from './features/products/productAPI.js';
-import reviewAPI from './features/reviews/reviewAPI.js';
+import { configureStore } from '@reduxjs/toolkit'
+
+import authReducer from './features/auth/authSlice'
+import cartReducer from './features/cartSlice'
+import authApi from './features/auth/authApi'
+import productsApi from './features/productsApi'
+import reviewsApi from './features/reviewsApi'
+import ordersApi from './features/ordersApi'
+import statsApi from './features/statsApi'
 
 export const store = configureStore({
-   reducer: {
-      cart: cartReducer,
-      [userAPI.reducerPath]: userAPI.reducer,
-      users: userReducer,
-      [productAPI.reducerPath]: productAPI.reducer,
-      [reviewAPI.reducerPath]: reviewAPI.reducer,
-   },
-   middleware: (getDefaultMiddleware) =>
-      getDefaultMiddleware().concat(userAPI.middleware, productAPI.middleware, reviewAPI.middleware)
-});
+	reducer: {
+		auth: authReducer,
+		cart: cartReducer,
+
+		[authApi.reducerPath]: authApi.reducer,
+		[productsApi.reducerPath]: productsApi.reducer,
+		[reviewsApi.reducerPath]: reviewsApi.reducer,
+		[ordersApi.reducerPath]: ordersApi.reducer,
+		[statsApi.reducerPath]: statsApi.reducer,
+	},
+	middleware: (getDefaultMiddleware) =>
+		getDefaultMiddleware().concat(
+			authApi.middleware,
+			productsApi.middleware,
+			reviewsApi.middleware,
+			ordersApi.middleware,
+			statsApi.middleware
+		),
+}) 

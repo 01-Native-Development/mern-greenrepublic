@@ -1,40 +1,47 @@
-/************************* imports *************************/
-import dotenv from "dotenv";
-import colors from "colors";
-// App Routing & Middleware
-import app from './app/app.js';
-// Database Connection
-import connectDatabase from './config/configDatabase.js';
+const express = require('express')
+const mongoose = require('mongoose');
+const cors = require('cors');
+const app = express()
+require('dotenv').config();
+const cookieParser = require('cookie-parser');
+const bodyParser = require('body-parser');
+const port = process.env.PORT || 5000;
+//auth routes
+const authRoutes = require('./src/users/user.route')
+const productsRoutes = require('./src/products/products.route')
+const reviewsRouter = require('./src/reviews/reviews.router')
+const ordersRoutes = require('./src/orders/orders.route')
+
+// middleware 
+app.use(express.json({ limit: "25mb" }));
+app.use(cookieParser());
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(cors({
+    origin: 'http://localhost:5173',
+    credentials: true
+}))
+
+//routes 
+app.use('/api/auth', authRoutes)
+app.use('/api/products', productsRoutes)
+app.use('/api/reviews', reviewsRouter)
+app.use('/api/orders', ordersRoutes)
+
+main()
+    .then(() => console.log("MongoDB successfully connected"))
+    .catch(err => console.log(err));
 
 
-/************************* handling Uncaught exceptions *************************/
-process.on('uncaughtException', err => {
-   console.log(`ERROR: ${err.stack}`);
-   console.log('Shutting down the server due to Uncaught Exception!');
-   process.exit(1);
-});
+async function main() {
+    await mongoose.connect(process.env.MONGO_DB_URI);
 
-/************************* configure setup *************************/
-dotenv.config({path: 'backend/config/config.env'});
-colors.enabled = true;
+    app.get('/', (req, res) => {
+        res.send('The Green Republic E-commerce Server is running !')
+    })
+}
 
-/************************* variables *************************/
-const PORT = process.env.PORT || 5000;
-const NODE_ENV = process.env.NODE_ENV;
-const API_URL = process.env.API_ENV || "/api/v1.0/";
 
-/************************* connect database *************************/
-connectDatabase();
-/************************* app listening *************************/
-const server = app.listen(PORT, () => {
-   console.log(`The server is listening at - http://127.0.0.1:${PORT}${API_URL} in ${NODE_ENV} mode!`.yellow);
-});
-
-/************************* handling unhandled promise rejection *************************/
-process.on('unhandledRejection', err => {
-   console.log(`ERROR: ${err.stack}`);
-   console.log('Shutting down the server due to Unhandled Promise Rejection!');
-   server.close(() => {
-      process.exit(1);
-   });
-});
+app.listen(port, () => {
+    console.log(`Example app listening on port ${port}`)
+}) 
