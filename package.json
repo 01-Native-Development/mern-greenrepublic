@@ -15,6 +15,7 @@
     "prod": "SET NODE_ENV=production& node backend/server"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.5.0",
     "bcrypt": "^5.1.1",
     "body-parser": "^1.20.2",
     "cloudinary": "^2.5.0",

@@ -9,7 +9,7 @@
       animation-iteration-count: 1;
       animation-timing-function: ease;
    }
-
+   
    .exit-to-left {
       animation-name: exit-to-left;
       animation-duration: 1s;

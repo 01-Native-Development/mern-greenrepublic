@@ -72,12 +72,12 @@ export default function NavbarLayout() {
                <li className='link'><Link to="/">Home</Link></li>
                <li className='link'><Link to="/about">About</Link></li>
                <li className='link'><Link to="/shop">Shop</Link></li>
-               <li className='link'><Link to="/">Pages</Link></li>
+               <li className='link'><Link to="/">Members</Link></li>
                <li className='link'><Link to="/contact">Contact</Link></li>
             </ul>
             {/* logo */}
             <div className='nav__logo'>
-               <Link to="/">Lebaba<span>.</span></Link>
+               <Link to="/"><span>.</span></Link>
             </div>
             {/* nav icons */}
             <div className='nav__icons relative'>
